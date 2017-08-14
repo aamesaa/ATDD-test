@@ -1,0 +1,40 @@
+<xref>
+  <whenMade>1502719805480</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform an action
+</narrative>
+      <name>BlibliLogin.story</name>
+      <path>stories/consult_dictionary/BlibliLogin.story</path>
+      <html>stories.consult_dictionary.BlibliLogin.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Go to blibli site and login
+Given open home page
+When I login to blibli
+Then I can see my name in the site
+Given already logged in
+When I search item
+And I add to cart
+Then Item already in cart
+Given Item already in cart
+When I checkout
+And I choose payment options
+And I confirm payment method
+Then I can see thankyou page
+
+
+</scenarios>
+      <passed>false</passed>
+      <pending>false</pending>
+      <started>1502719659720</started>
+      <duration>126398</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

@@ -1,0 +1,148 @@
+<acceptance-test-run title="Go to blibli site and login" name="Go to blibli site and login" steps="12" successful="9" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="106202" timestamp="2017-08-14T21:07:39.784+07:00" session-id="e6cfb74c-b903-d14a-9ead-66b8d02a057c">
+  <user-story id="BlibliLogin" name="Blibli login" path="stories/consult_dictionary/BlibliLogin.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Blibli login" type="story"/>
+  </tags>
+  <test-group name="Given open home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e44fc2d9ad3d6f575601a4a7e580a21b.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="10827">
+      <screenshots>
+        <screenshot image="59f6850d50fc1faef285a3ba5f928a42.png"/>
+      </screenshots>
+      <description>Open</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I login to blibli" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de1213a8e14fc6f7a4a4bb4b9ac72f0f.png"/>
+      <screenshot image="8a89a523e2933d86da32ba4bd476ecdd.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5296">
+      <screenshots>
+        <screenshot image="204d00b60cacf97d1e0a3ea056080643.png"/>
+        <screenshot image="0d7a9d8ddfd166950c1e70dc3193d837.png"/>
+      </screenshots>
+      <description>Click user login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can see my name in the site" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8a89a523e2933d86da32ba4bd476ecdd.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1524">
+      <screenshots>
+        <screenshot image="8a89a523e2933d86da32ba4bd476ecdd.png"/>
+      </screenshots>
+      <description>Checked user already logged in</description>
+    </test-step>
+  </test-group>
+  <test-group name="Given already logged in" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b6a0a770cce2d14f2c9fa5312eb878ea.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1581">
+      <screenshots>
+        <screenshot image="3137fc4b8e953cd969e53658a745ab5a.png"/>
+        <screenshot image="83945bccfcce8de36d8b50c1ddfb6b51.png"/>
+      </screenshots>
+      <description>Checked user already logged in</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I search item" result="SUCCESS">
+    <screenshots>
+      <screenshot image="daac16e4852a3fcba541ed956ba446b4.png"/>
+      <screenshot image="12d9a124960179b0b3beb3ab42b129d1.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6688">
+      <screenshots>
+        <screenshot image="0f466ed1a6748629e5a0c4bc81bc8ff3.png"/>
+        <screenshot image="12d9a124960179b0b3beb3ab42b129d1.png"/>
+      </screenshots>
+      <description>Enter keyword</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I add to cart" result="SUCCESS">
+    <screenshots>
+      <screenshot image="76346d67ed29bf6a2a6dff0a756b678c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8225">
+      <screenshots>
+        <screenshot image="76346d67ed29bf6a2a6dff0a756b678c.png"/>
+      </screenshots>
+      <description>Choose item</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then Item already in cart" result="SUCCESS">
+    <screenshots>
+      <screenshot image="76346d67ed29bf6a2a6dff0a756b678c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1104">
+      <screenshots>
+        <screenshot image="76346d67ed29bf6a2a6dff0a756b678c.png"/>
+      </screenshots>
+      <description>Checked item already added</description>
+    </test-step>
+  </test-group>
+  <test-group name="Given Item already in cart" result="SUCCESS">
+    <screenshots>
+      <screenshot image="76346d67ed29bf6a2a6dff0a756b678c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1128">
+      <screenshots>
+        <screenshot image="76346d67ed29bf6a2a6dff0a756b678c.png"/>
+      </screenshots>
+      <description>Checked item already added</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I checkout" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b1bade73ab8ab88222596ebed1cd0844.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="9851">
+      <screenshots>
+        <screenshot image="cb1f82ab10b236480571deaacaf8ce18.png"/>
+      </screenshots>
+      <description>Checked out cart</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I choose payment options" result="ERROR">
+    <screenshots>
+      <screenshot image="8b67dfe997f88031b7044e30dfbdcda9.png"/>
+    </screenshots>
+    <test-step result="ERROR" duration="23578">
+      <screenshots>
+        <screenshot image="8b67dfe997f88031b7044e30dfbdcda9.png"/>
+        <screenshot image="20095a2e5ee21e6bec1474c5cf7fe068.png" source="pagesource4920675174913342834.html.txt"/>
+      </screenshots>
+      <description>Choose payment</description>
+      <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;gdn-payment-option-KlikBCA&quot;}
+Command duration or timeout: 2.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;Azhalias-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e6cfb74c-b903-d14a-9ead-66b8d02a057c
+*** Element info: {Using=id, value=gdn-payment-option-KlikBCA}</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;gdn-payment-option-KlikBCA&quot;}
+Command duration or timeout: 2.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;Azhalias-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e6cfb74c-b903-d14a-9ead-66b8d02a057c
+*** Element info: {Using=id, value=gdn-payment-option-KlikBCA}
+[com.blibli.pages.BlibliHomePage.getDropdownPaymentOption(BlibliHomePage.java:160), com.blibli.Behaviour.BlibliHomePageBehaviour.choosePayment(BlibliHomePageBehaviour.java:65), com.blibli.steps.DefinitionSteps.whenPaymentOptionChosen(DefinitionSteps.java:77)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="1">
+    <description>And I confirm payment method</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then I can see thankyou page</description>
+  </test-step>
+</acceptance-test-run>

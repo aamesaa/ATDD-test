@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1502719805480,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to \nAs a user\nI want to perform an action\n",
+      "name": "BlibliLogin.story",
+      "path": "stories/consult_dictionary/BlibliLogin.story",
+      "html": "stories.consult_dictionary.BlibliLogin.html",
+      "meta": "",
+      "scenarios": "Scenario:Go to blibli site and login\nGiven open home page\nWhen I login to blibli\nThen I can see my name in the site\nGiven already logged in\nWhen I search item\nAnd I add to cart\nThen Item already in cart\nGiven Item already in cart\nWhen I checkout\nAnd I choose payment options\nAnd I confirm payment method\nThen I can see thankyou page\n\n\n",
+      "passed": false,
+      "pending": false,
+      "started": 1502719659720,
+      "duration": 126398
+    }
+  ],
+  "stepMatches": []
+}}
